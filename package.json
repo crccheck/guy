@@ -1,0 +1,20 @@
+{
+  "name": "@flavortown/guy",
+  "version": "1.0.0",
+  "description": "Our mayor",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --require . -p \"require('.').guy\" || exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crccheck/guy.git"
+  },
+  "keywords": ["guy"],
+  "author": "Chris Chang <github@crccheck.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crccheck/guy/issues"
+  },
+  "homepage": "https://github.com/crccheck/guy#readme"
+}
